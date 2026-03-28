@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index_eq7</title>
+	<link rel="stylesheet" type="text/css" href="index_eq_css.css">
+	<script defer src="serviciosjs.js"></script>
+</head>
+<header>
+	<nav>
+			<a href="#INICIO">Inicio</a>
+			<a href="Servicios.html">Servicio</a>
+			<a href="CONTACTO.html">Contacto</a>
+		</nav>
+		<p class="LOGO"><em>NUESTRO LOGO</em></p>
+		<img src="LOGO.jpeg" width="175px">
+	</header>
+	<body>
+		<div class="image">
+	<h1>
+		RESOLVIENDO PROBLEMATICAS COMUNITARIAS
+	</h1>
+	<H6>¿QUIENES SOMOS?</H6>
+	<P class="introduccion">Somos un grupo de jovenes que se interesan por los problemas sociales y quieren hacer de nuestra comunidad un lugar seguro y que escucha la opinion de su entorno, es por eso que hemos creado este buzon de quejas, para que cada problema que haya a sus alrederdores nosotros podamos acercarnos a ayudar y poner nuestro granito de arena. Cada queja reportada en este sitio llega a nosotros y buscamos ideas que inoven y resuelvan la poblematica de la forma mas sutil y pacifica.</P>
+</div>
+	<div class="buzon">
+		<P class="priv">Cada queja registrada en este buzon es completamente anonima y privada, informarcion resguardada por <strong> -Servivio a la comunidad-</strong>.</P>
+		<form>
+		<label>BUZON DE QUEJA</label><br>
+			<input class="llenado" type="text" placeholder="Escribe la problematica aqui" required>
+			<button type="submit">ENVIAR QUEJA</button>
+		</form>
+	</div>
+	<div class="procesos">
+    <h2>Estado del Buzón</h2>
+
+    <p>Total de quejas procesadas: <span id="contadorQuejas">0</span></p>
+
+    <div class="barra">
+        <div id="barraProgreso"></div>
+    </div>
+
+    <p id="mensajeEstado"></p>
+    <h3>Encuesta rápida</h3>
+    <label>¿Qué tan grave es el problema? (1 al 5)</label>
+    <input type="number" id="gravedad" min="1" max="5">
+
+    <button onclick="procesarEncuesta()">Enviar nivel</button>
+
+    <p id="resultadoGravedad"></p>
+</div>
+	<div class="PIE">
+		<P>LO QUE SE VE EN ESTA PAGINA NO ES REAL Y SOLO TIENE COMO PROPOSITO DETERMINAR NUESTRAS HABILIDADES PROGRAMANDO PAGINAS EN HTML Y CSS</P>
+		<P>USO RESTRINGIDO PARA PROYECTOS ESCOLARES</P>
+	</div>
+	<div class="VID">
+	<video controls src="VIDEO_COMUNIDAD.MP4" width="200px" poster="poster.jpeg">
+	</video></div>
+	<div class="contacto">
+    <h2>Formulario de Contacto</h2>
+
+    <label>Nombre:</label>
+    <input id="nombreContacto" type="text" placeholder="Tu nombre" required>
+
+    <label>Email:</label>
+    <input id="emailContacto" type="email" placeholder="ejemplo@gmail.com" required>
+
+    <label>Teléfono:</label>
+    <input id="telContacto" type="number" placeholder="10 dígitos" maxlength="10" required>
+
+    <label>Detalles:</label>
+    <textarea id="detalleContacto" rows="3" placeholder="Escribe tu mensaje" required></textarea>
+
+    <label>Subir foto (opcional):</label>
+    <input id="fotoContacto" type="file" accept="image/*">
+
+    <img id="previewFoto" style="display:none; margin-top:10px; width:150px; border:2px solid black;">
+
+    <button onclick="validarContacto()">Enviar</button>
+
+    <p id="mensajeContacto"></p>
+</div>
+</body>
+</html>

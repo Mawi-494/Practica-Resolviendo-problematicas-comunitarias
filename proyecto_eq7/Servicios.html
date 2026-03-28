@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Servicios</title>
+<link rel="stylesheet" type="text/css" href="Servicios_css.css">
+
+</head>
+<header class="cabeza">
+	<nav>
+		<li> <a href="index_eq7.html">Inicio </a></li>
+				<li> <a href="CONTACTO.html">Contacto </a></li>
+	</nav>
+</header>
+<body>
+    <h1>Servicio Comunitario</h1>
+    <br>
+    <h2>Servicios que Ofrecemos o Hemos Hecho:</h2>
+    
+    <div class="servicios-container"> 
+        
+        <div class="serv">
+            <h3>Servicio de Limpieza</h3>
+            <p>Ofrecemos limpieza a todo tipo de cosas que nesecite</p>
+            <summary>
+                <details>
+                    <p>Por ejemplo: </p>
+                        <ul> Lavado de autos</ul>
+                        <ul> Limpieza de casas</ul>
+                        <ul> Limpieza de Jardines</ul>
+                        <ul> Limpieza para mascotas</ul>
+                        <img src="descarga.jpg" width="180px">
+                    </details>
+            </summary>
+              <button class="btn" type="submit">Solicitar</button>
+        </div>
+        
+        <div class="serv">
+            <h3>Servicio Guarderia</h3>
+            <p>Cuidado de niños</p>
+            <summary>
+                <details>
+                    <p>Ofrecemos: </p>
+                        <ul> Cuidamos a los niños en horario flexible</ul>
+                        <ul> incluso cuidamos tus mascotas</ul>
+                        <ul> Les damos comidas ,baños etc.</ul>
+                         <ul> Tambien Hacemos juegos recreativos</ul>
+                        <img  src="descarga 2.jpg"  width="190px">
+                    </details>
+            </summary>
+            <button class="btn" type="submit">Solicitar</button>
+        </div>
+        
+        <div class="serv">
+            <h3>Servicios de Caridad</h3>
+            <p>Hemos ayudado a personas necesitadas ya sea con ropa o comida etc</p>
+            <summary>
+                <details>
+                    <p>Algunas de las cosas con las que ayudamos: </p>
+                        <ul> Donaciones</ul>
+                        <ul> Regalamos comida</ul>
+                        <ul> Regalamos ropa</ul>
+                        <ul> Regalamos jugetes a los niños</ul>
+                        <img src="descarga3.png" width="150px">
+                    </details>
+            </summary>
+              <button class="btn" type="submit">Solicitar</button>
+        </div>
+        <section class="calculadora">
+    <h2>Calculadora de Costos</h2>
+    <p>Selecciona los servicios y calcula el total estimado.</p>
+
+    <label><input type="checkbox" class="serv-check" data-precio="120"> Limpieza — $120</label><br>
+    <label><input type="checkbox" class="serv-check" data-precio="150"> Guardería — $150</label><br>
+    <label><input type="checkbox" class="serv-check" data-precio="80"> Caridad / Donaciones — $80</label><br>
+
+    <button id="btnCalcular" class="btn">Calcular total</button>
+    <p id="resultadoCosto" class="resultado"></p>
+</section>
+<script defer src="serviciosjs.js"></script>
+    </body>
+</html>

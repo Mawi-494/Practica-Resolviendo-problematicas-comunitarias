@@ -1,0 +1,146 @@
+
+nav{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top:20px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-weight: bold;
+	background-color:beige;
+}
+.image{
+	background-image:url(https://www.shutterstock.com/shutterstock/photos/2220453171/display_1500/stock-vector-ngo-and-volunteers-non-governmental-nonprofit-organizations-work-concept-humanitarian-aid-2220453171.jpg);
+	width:100%;
+	height: 28vh;
+	background-size: cover;
+	object-fit: cover;
+	background-attachment: fixed;
+	opacity:0.7;
+}
+.priv{
+	display: flex;
+	position: absolute;
+	top:270px;
+	width:1000px;
+	background-color:rgb(251,218,142);
+	color: black;
+}
+img{
+	position: absolute;
+	top:325px;
+	right: 200px;
+}
+.LOGO{
+	position: absolute;
+	top:309px;
+	right: 220px;
+}
+a{
+	color:white;
+	border:2px solid black;
+	border-radius: 10%;
+	background-color: rgb(255,138,138);
+}
+a:hover{
+	transform: scale(1.4);
+}
+}
+p,h6,h1{
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+p{
+	padding-left: 50px;
+	margin:auto;
+}
+.buzon{
+	background-color: rgb(181,223,170);
+}
+input{
+
+}
+form{
+	padding: 1px 300px 250px 450px;
+	justify-content: center;
+	label{
+		text-decoration: underline;
+		position:absolute;
+		left:550px;
+		color:white;
+	}
+	.llenado{
+		position: absolute;
+		top:300px;
+		left:500px;
+	}
+	button{
+		position: absolute;
+		top:320px;
+		left:570px;
+	}
+}
+.PIE{
+ font-size: 0.5rem;
+ background-color: black;
+ p{
+ 	color:white;
+ }
+}
+.VID{
+	position: absolute;
+	top:350px;
+	left: 200px;
+	border:5px solid lightblue;
+}
+.procesos{
+    background-color: rgb(255,230,180);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.barra {
+    width: 80%;
+    height: 20px;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#barraProgreso{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(255,138,138);
+    transition: width .4s ease-in-out;
+}
+
+#mensajeEstado{
+    font-weight: bold;
+    margin: 10px 0;
+}
+.contacto{
+    background-color: rgb(255,230,180);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.contacto input, 
+.contacto textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 6px;
+    border: 1px solid black;
+}
+
+.contacto button{
+    padding: 8px 15px;
+    background-color: rgb(255,138,138);
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+}

@@ -1,0 +1,128 @@
+#prfill {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border: 2px solid blue;
+  box-shadow: 0 0 5px black;
+}
+#prfill:hover {
+  transform: scale(3);
+}
+.cabeza{
+  background-color: red; 
+    color: white;
+    padding: 2px 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    li{
+  display: inline-block;
+font-weight: bold;
+padding: 20px 20px;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+color: white;
+font-family: arial;
+font-size: 15px;
+}
+a:hover{
+  color: black;
+  }
+  li a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+li a:hover {
+  background-color: white;
+}
+}
+.img11 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVBUoFL6GPJCJI8otZWWH1NpR7_GhKPckqWQ&s');
+  background-size: cover;
+  background-position: center;
+  height: 125vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.margn {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 100px;
+}
+.colo1{
+  background-color: #111827;;
+    background: #111827;;
+    font-size: 40px;
+
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  margin: 5px 0px;
+}
+nav ul li a {
+  background-color: orange;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  padding: 8px 15px;
+  border: 3px solid blue;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+nav ul li a:hover {
+  background-color: blue;
+  color: black;
+  transform: scale(2);
+}
+.cbt{
+  height: 90px;
+  width: 90px;
+  margin: none;
+
+}
+.cbt:hover {
+  transform: scale(2);
+}
+.mr{
+  color: gold;
+}
+audio{
+  position: fixed;
+  bottom: 10px;
+  left: 10px; 
+}
+}
